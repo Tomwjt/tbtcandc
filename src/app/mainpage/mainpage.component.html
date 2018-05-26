@@ -15,15 +15,55 @@
 <div class="jumbotron text-center" style="margin-bottom:0">
   <h1 class="main-header">thoughts become things</h1>
   <p class="logo-slogan">coach | consult | train</p>
-  <div class="tbt-nav">
-    <ul class="nav nav-pills ">
-      <li class="tbt-nav-item" role="presentation"><a href="www.tbtcandc.com">Home</a></li>
-      <li class="tbt-nav-item" role="presentation"><a href="#">Blogs</a></li>
-      <li class="tbt-nav-item" role="presentation"><a href="#">About</a></li>
-    </ul>
-  </div>
+  <nav class="nav nav-pills flex-column flex-sm-row">
+    <a class="flex-sm-fill text-sm-center nav-link" href="#">About</a>
+    <a class="flex-sm-fill text-sm-center nav-link" href="#">Thoughts</a>
+    <a class="flex-sm-fill text-sm-center nav-link" href="#">Blog</a>
+  </nav>
 </div>
+  <!-- Intro Pane -->
+  <app-scroll-pane
+    paneHeader="consult | coach | train"
+    paneLogoPath="../../assets/transparent_colour_logo.png"
+    paneBackgroundColour="white"
+    paneFontColour="#449ca4"
+    paneTextContent="
+    We are experts in enabling businesses to manage “The Change Curve”, with over 10 years experience of successfully taking businesses through critical changes in their business model. If your business needs to evolve, we have the knowledge, skills and expertise to help you to change, adapt and thrive.
+    “The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.” - Albert Einstein"
+  ></app-scroll-pane>
 
+  <!-- Consult Pane -->
+  <app-scroll-pane
+                   paneHeader="Consult"
+                   paneLogoPath="../../assets/transparent_white_logo.png"
+                   paneBackgroundColour="#449ca4"
+                   paneFontColour="white"
+                   paneTextContent="
+    We get to know you, find out where you are at now and what you want to achieve in the future.
+    We REALLY listen so that we both have complete clarity as to what your objectives are and what you want you future to look like before we work with you"
+  ></app-scroll-pane>
+
+  <!-- Coach Pane -->
+  <app-scroll-pane
+                   paneHeader="Coach"
+                   paneLogoPath="../../assets/transparent_white_logo.png"
+                   paneBackgroundColour="#E8983E"
+                   paneFontColour="white"
+                   paneTextContent="
+    Once we’ve established where you want to be, we will help you get there.  With any change process there will be barriers but those can be overcome.
+        We do this by coaching you and your team through the change process to limit the impact to the business.  We know this process works."
+  ></app-scroll-pane>
+
+  <!-- Train Pane -->
+  <app-scroll-pane
+                   paneHeader="Train"
+                   paneLogoPath="../../assets/transparent_white_logo.png"
+                   paneBackgroundColour="#d43c64"
+                   paneFontColour="white"
+                   paneTextContent="
+    Training is a really important part of the change process, as quite often you and your team will need new skills.  We will provide the skills you need to manage this process.
+        We have particular expertise in consultative sales, changing or adapting business models, client segmentation (understanding who your clients are), leadership, management and coaching."
+  ></app-scroll-pane>
 
 <!--Footer-->
 <footer class="page-footer font-small stylish-color-dark pt-4 mt-4">

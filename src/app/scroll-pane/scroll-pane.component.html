@@ -1,0 +1,6 @@
+<div class="container col-12" [ngStyle]="{'background-color': getColor()}" >
+    <div class="row"><img class="pane-logo justify-content-center" src="{{paneLogoPath}}"></div>
+    <h1 class="pane-header" [ngStyle]="{'color': getFontColour()}"> {{paneHeader}} </h1>
+    <hr>
+    <p class="pane-text" [ngStyle]="{'color': getFontColour()}"> {{paneTextContent}}</p>
+</div>

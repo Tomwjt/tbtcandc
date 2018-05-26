@@ -7,6 +7,7 @@ import { FormsModule } from '@angular/forms';
 import {ServerComponent} from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
 import { MainpageComponent } from './mainpage/mainpage.component';
+import { ScrollPaneComponent } from './scroll-pane/scroll-pane.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { MainpageComponent } from './mainpage/mainpage.component';
     AppComponent,
     ServerComponent,
     ServersComponent,
-    MainpageComponent
+    MainpageComponent,
+    ScrollPaneComponent
   ],
   imports: [
     BrowserModule,
