@@ -3,5 +3,5 @@
     <div style="width: auto">
       <h1 style="width: auto" class=" white-hr pane-header" [ngStyle]="{'color': getFontColour()}"> {{paneHeader}}<hr></h1>
     </div>
-    <p class="pane-text" [ngStyle]="{'color': getFontColour()}"> {{paneTextContent}}</p>
+    <p class="pane-text" [ngStyle]="{'color': getFontColour()}" [innerHTML]="getText()"> </p>
 </div>

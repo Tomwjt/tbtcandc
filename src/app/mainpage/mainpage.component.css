@@ -1,5 +1,5 @@
 * {
-  font-family: "Montserrat-light";
+  font-family: Montserrat-light;
 }
 
 body {
@@ -7,16 +7,25 @@ body {
   height: 100vh;
 }
 
-.main-header, .main-slogan {
+a {
   color: white;
-  background-color: #449ca4;
-  padding: 0px;
 }
+
 
 /* Main Banner */
 .jumbotron {
   background-color: #449ca4;
   border-radius: 0px;
+}
+
+.main-header, .main-slogan {
+  color: white;
+  background-color: #449ca4;
+  font-family: Montserrat-medium;
+}
+
+.logo-slogan {
+  color: white;
 }
 
 /* Empty bar at the top of the page */
@@ -26,52 +35,11 @@ body {
   margin: 0px;
 }
 
-.teal_pane {
-  background-color: #449ca4;
-  color: white;
-  align-items: center;
-}
-
-.pane_logo {
-  max-height: 5%;
-  max-width: 5%;
-}
-
-.orange_pane {
-  background-color: #E8983E;
-
-}
-
-.pink_pane {
-  background-color: #d43c64;
-}
-
-.logo_image {
-  margin-top: 5%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.logo-slogan {
-  font-size: 30px;
-  font-stretch: ultra-condensed;
-  color: white;
-}
-
 .page-footer {
   background-color: #d43c64;
   text-color: white;
   font-size: 12px;
 
-}
-
-.footer-separator {
-  width: 100vh;
-}
-
-a {
-  color: white;
 }
 
 @font-face {
@@ -84,5 +52,9 @@ a {
   src: url("../../assets/fonts/montserrat/Montserrat-ExtraLight.otf");
 }
 
+@font-face {
+  font-family: 'Montserrat-medium';
+  src: url("../../assets/fonts/montserrat/Montserrat-medium.otf");
+}
 
 

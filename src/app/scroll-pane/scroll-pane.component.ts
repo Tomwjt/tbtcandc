@@ -31,5 +31,9 @@ export class ScrollPaneComponent implements OnInit {
     return 'url("' + this.paneBackgroundImagePath + '")';
   }
 
+  getText() {
+    return this.paneTextContent;
+  }
+
 
 }
