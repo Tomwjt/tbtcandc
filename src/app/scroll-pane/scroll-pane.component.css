@@ -9,16 +9,17 @@ h1 {
   padding-top: 30px;
 }
 hr {
-  max-width: 60%;
+  max-width: 40%;
 }
 
 p {
-  font-size: 30px;
+  font-size: 25px;
   max-width: 80%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0px;
   padding: 40px;
+  text-align: justify;
 }
 
 img {
@@ -37,5 +38,14 @@ div {
   margin-right: auto;
   margin-top: 40px;
   margin-bottom: 20px;
+}
+
+.pane-text {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-bar {
+  margin-top: 20px;
 }
 

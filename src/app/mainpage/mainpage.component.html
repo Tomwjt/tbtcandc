@@ -10,26 +10,35 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 </head>
 <body>
+
+  <!-- Top Bar
+  * Different Colour
+  * Might Function as a possible menu
+  * Might hold logo in the left hand corner in the future
+  * Possibly Navigation bar
+  -->
   <div class="top-bar">
   </div>
-<div class="jumbotron text-center" style="margin-bottom:0">
-  <h1 class="main-header">thoughts become things</h1>
-  <p class="logo-slogan">coach | consult | train</p>
-  <nav class="nav nav-pills flex-column flex-sm-row">
-    <a class="flex-sm-fill text-sm-center nav-link" href="#">About</a>
-    <a class="flex-sm-fill text-sm-center nav-link" href="#">Thoughts</a>
-    <a class="flex-sm-fill text-sm-center nav-link" href="#">Blog</a>
-  </nav>
-</div>
+
+  <!-- Main Banner -->
+  <div class="jumbotron text-center" style="margin-bottom:0">
+    <h1 class="main-header display-3">Thoughts Become Things</h1>
+    <p class="logo-slogan lead">Coach | Consult | Train</p>
+  </div>
+
   <!-- Intro Pane -->
   <app-scroll-pane
-    paneHeader="consult | coach | train"
+    paneHeader="Consult | Coach | Train"
     paneLogoPath="../../assets/transparent_colour_logo.png"
     paneBackgroundColour="white"
     paneFontColour="#449ca4"
     paneTextContent="
-    We are experts in enabling businesses to manage “The Change Curve”, with over 10 years experience of successfully taking businesses through critical changes in their business model. If your business needs to evolve, we have the knowledge, skills and expertise to help you to change, adapt and thrive.
-    “The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.” - Albert Einstein"
+    We are experts in enabling businesses to manage “The Change Curve”, with over 10 years experience of
+    successfully taking businesses through critical changes in their business model. If your business needs
+    to evolve, we have the knowledge, skills and expertise to help you to change, adapt and thrive.
+
+    “The world as we have created it is a process of our thinking. It cannot be changed without
+    changing our thinking.” - Albert Einstein"
   ></app-scroll-pane>
 
   <!-- Consult Pane -->
@@ -37,10 +46,12 @@
                    paneHeader="Consult"
                    paneLogoPath="../../assets/transparent_white_logo.png"
                    paneBackgroundColour="#449ca4"
+                   paneBackgroundImagePath="../../assets/Consult.png"
                    paneFontColour="white"
                    paneTextContent="
     We get to know you, find out where you are at now and what you want to achieve in the future.
-    We REALLY listen so that we both have complete clarity as to what your objectives are and what you want you future to look like before we work with you"
+    We REALLY listen so that we both have complete clarity as to what your objectives are and
+    what you want you future to look like before we work with you"
   ></app-scroll-pane>
 
   <!-- Coach Pane -->
@@ -48,10 +59,12 @@
                    paneHeader="Coach"
                    paneLogoPath="../../assets/transparent_white_logo.png"
                    paneBackgroundColour="#E8983E"
+                   paneBackgroundImagePath="../../assets/Coach.png"
                    paneFontColour="white"
                    paneTextContent="
-    Once we’ve established where you want to be, we will help you get there.  With any change process there will be barriers but those can be overcome.
-        We do this by coaching you and your team through the change process to limit the impact to the business.  We know this process works."
+    Once we’ve established where you want to be, we will help you get there.  With any change
+    process there will be barriers but those can be overcome. We do this by coaching you and
+    your team through the change process to limit the impact to the business. We know this process works."
   ></app-scroll-pane>
 
   <!-- Train Pane -->
@@ -59,10 +72,13 @@
                    paneHeader="Train"
                    paneLogoPath="../../assets/transparent_white_logo.png"
                    paneBackgroundColour="#d43c64"
+                   paneBackgroundImagePath="../../assets/Train.png"
                    paneFontColour="white"
                    paneTextContent="
-    Training is a really important part of the change process, as quite often you and your team will need new skills.  We will provide the skills you need to manage this process.
-        We have particular expertise in consultative sales, changing or adapting business models, client segmentation (understanding who your clients are), leadership, management and coaching."
+    Training is a really important part of the change process, as quite often you and your team
+    will need new skills. We will provide the skills you need to manage this process.
+    We have particular expertise in consultative sales, changing or adapting business models,
+    client segmentation (understanding who your clients are), leadership, management and coaching."
   ></app-scroll-pane>
 
 <!--Footer-->
@@ -81,27 +97,12 @@
       </div>
       <!--/.First column-->
 
-      <hr class="w-100 clearfix d-md-none">
-
-      <!--Second column-->
-      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-        <h6 class="text-uppercase mb-4 font-weight-bold">Resources</h6>
-        <p><a href="#!">Excel Document</a></p>
-        <p><a href="#!">Blog</a></p>
-        <p><a href="#!">Coaching</a></p>
-        <p><a href="#!">Business</a></p>
-      </div>
-      <!--/.Second column-->
-
-      <hr class="footer-separator w-100 clearfix d-md-none">
-
       <!--Third column-->
       <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
         <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
-        <p><a href="#!">Twitter</a></p>
-        <p><a href="#!">LinkedIn</a></p>
-        <p><a href="#!">YouTube</a></p>
-        <p><a href="#!">Help</a></p>
+        <p><a href="https://twitter.com/SusanJordan66">Twitter</a></p>
+        <p><a href="https://www.linkedin.com/in/susan-jones-a270ba21/">LinkedIn</a></p>
+        <p><a href="https://www.youtube.com/channel/UCp7ebTtH9B8DtsHvm59BEoQ/featured?disable_polymer=1">YouTube</a></p>
       </div>
       <!--/.Third column-->
 
@@ -110,9 +111,7 @@
       <!--Fourth column-->
       <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
         <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-        <p><i class="fa fa-envelope mr-3"></i> sue.jones@tbtcandc.co.uk</p>
-        <p><i class="fa fa-phone mr-3"></i> +44 07542 001 278</p>
-        <p><i class="fa fa-print mr-3"></i> +44 07542 001 278</p>
+        <p><i class="fa fa-envelope mr-3"></i>sue.jones@tbtcandc.co.uk</p>
       </div>
       <!--/.Fourth column-->
 
@@ -122,31 +121,11 @@
     <hr>
 
     <div class="row py-3 d-flex align-items-center">
-
       <!--Grid column-->
       <div class="col-md-8 col-lg-8">
-
         <!--Copyright-->
         <p class="text-center text-md-left grey-text">© 2018 Copyright: <a href="tbtcandc.com"><strong>www.tbtcandc.com</strong></a></p>
         <!--/.Copyright-->
-
-      </div>
-      <!--Grid column-->
-
-      <!--Grid column-->
-      <div class="col-md-4 col-lg-4 ml-lg-0">
-
-        <!--Social buttons-->
-        <div class="text-center text-md-right">
-          <ul class="list-unstyled list-inline">
-            <li class="list-inline-item"><a class="btn-floating btn-sm rgba-white-slight mx-1"><i class="fa fa-facebook"></i></a></li>
-            <li class="list-inline-item"><a class="btn-floating btn-sm rgba-white-slight mx-1"><i class="fa fa-twitter"></i></a></li>
-            <li class="list-inline-item"><a class="btn-floating btn-sm rgba-white-slight mx-1"><i class="fa fa-google-plus"></i></a></li>
-            <li class="list-inline-item"><a class="btn-floating btn-sm rgba-white-slight mx-1"><i class="fa fa-linkedin"></i></a></li>
-          </ul>
-        </div>
-        <!--/.Social buttons-->
-
       </div>
       <!--Grid column-->
 

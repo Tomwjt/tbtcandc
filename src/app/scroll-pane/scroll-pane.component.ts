@@ -12,6 +12,7 @@ export class ScrollPaneComponent implements OnInit {
   @Input() paneTextContent: string;
   @Input() paneBackgroundColour: string;
   @Input() paneFontColour: string;
+  @Input() paneBackgroundImagePath: string;
 
   constructor() { }
 
@@ -24,6 +25,10 @@ export class ScrollPaneComponent implements OnInit {
 
   getFontColour() {
     return this.paneFontColour;
+  }
+
+  getBackgroundImagePath() {
+    return 'url("' + this.paneBackgroundImagePath + '")';
   }
 
 
