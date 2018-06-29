@@ -8,6 +8,8 @@ import {ServerComponent} from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
 import { MainpageComponent } from './mainpage/mainpage.component';
 import { ScrollPaneComponent } from './scroll-pane/scroll-pane.component';
+import { ImagePaneComponent } from './image-pane/image-pane.component';
+import { InfoPaneComponent } from './info-pane/info-pane.component';
 
 
 @NgModule({
@@ -16,7 +18,9 @@ import { ScrollPaneComponent } from './scroll-pane/scroll-pane.component';
     ServerComponent,
     ServersComponent,
     MainpageComponent,
-    ScrollPaneComponent
+    ScrollPaneComponent,
+    ImagePaneComponent,
+    InfoPaneComponent
   ],
   imports: [
     BrowserModule,
@@ -25,4 +29,5 @@ import { ScrollPaneComponent } from './scroll-pane/scroll-pane.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}

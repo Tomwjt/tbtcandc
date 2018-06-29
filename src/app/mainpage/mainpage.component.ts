@@ -12,4 +12,5 @@ export class MainpageComponent implements OnInit {
   ngOnInit() {
   }
 
+
 }

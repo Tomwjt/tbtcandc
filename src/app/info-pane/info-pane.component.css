@@ -1,0 +1,53 @@
+* {
+  font-family: Montserrat-ExtraLight;
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+p {
+  font-size: 25px;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  padding: 40px;
+  text-align: justify;
+}
+
+div {
+  width: 100%;
+  margin: 0px;
+}
+
+.pane-text {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Empty bar at the top of the page */
+.pane-banner {
+  height: 10%;
+  background-color: #70b6bd;
+  margin: 0px;
+}
+
+
+.text-frame {
+  display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+
+  display: block;
+
+  margin: 50px auto 50px auto;
+  width: 80%;
+  border: 10px solid #70b6bd;
+  box-shadow: 10px 10px #d43c64;
+
+}
