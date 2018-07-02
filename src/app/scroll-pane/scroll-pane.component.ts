@@ -3,7 +3,7 @@ import {Component, Input, OnInit} from '@angular/core';
 @Component({
   selector: 'app-scroll-pane',
   templateUrl: './scroll-pane.component.html',
-  styleUrls: ['./scroll-pane.component.css']
+  styleUrls: ['./scroll-pane.component.css', '../shared-styles/pane.css']
 })
 export class ScrollPaneComponent implements OnInit {
 

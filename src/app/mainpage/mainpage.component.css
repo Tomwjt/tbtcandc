@@ -7,41 +7,51 @@ body {
   height: 100vh;
 }
 
-a {
-  color: white;
+/* Responsive Sizing */
+
+/* MAIN HEADER */
+@media screen and (min-width: 601px) {
+  .main-header-size {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main-header-size {
+    font-size: 25px;
+  }
 }
 
+/* TOP BAR */
+@media screen and (min-width: 601px) {
+  .top-bar-size {
+    height: 15%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .top-bar-size {
+    height: 5%;
+  }
+}
+/* Responsive Sizing */
+
+.top-bar {
+  background-color: #70b6bd;
+  margin: 0px;
+}
 
 /* Main Banner */
 .jumbotron {
   background-color: #449ca4;
   border-radius: 0px;
 }
-
-.main-header, .main-slogan {
+.main-header {
   color: white;
   background-color: #449ca4;
   font-family: Montserrat-medium;
 }
+/* Main Banner */
 
-.logo-slogan {
-  color: white;
-}
-
-/* Empty bar at the top of the page */
-.top-bar {
-  height: 15%;
-  background-color: #70b6bd;
-  margin: 0px;
-}
-
-.page-footer {
-  background-color: #d43c64;
-  text-color: white;
-  font-size: 12px;
-
-}
-
+/* Fonts */
 @font-face {
   font-family: 'Montserrat-light';
   src: url("../../assets/fonts/montserrat/Montserrat-light.otf");
@@ -57,5 +67,6 @@ a {
   src: url("../../assets/fonts/montserrat/Montserrat-medium.otf");
 }
 
+/* Fonts */
 
 
