@@ -10,6 +10,7 @@ import { MainpageComponent } from './mainpage/mainpage.component';
 import { ScrollPaneComponent } from './scroll-pane/scroll-pane.component';
 import { ImagePaneComponent } from './image-pane/image-pane.component';
 import { InfoPaneComponent } from './info-pane/info-pane.component';
+import { ListPaneComponent } from './list-pane/list-pane.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { InfoPaneComponent } from './info-pane/info-pane.component';
     MainpageComponent,
     ScrollPaneComponent,
     ImagePaneComponent,
-    InfoPaneComponent
+    InfoPaneComponent,
+    ListPaneComponent
   ],
   imports: [
     BrowserModule,
