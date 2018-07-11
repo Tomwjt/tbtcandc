@@ -10,6 +10,7 @@ import { ImagePaneComponent } from './image-pane/image-pane.component';
 import { InfoPaneComponent } from './info-pane/info-pane.component';
 import { ListPaneComponent } from './list-pane/list-pane.component';
 import { FooterComponent } from './footer/footer.component';
+import { SwipeContentPaneComponent } from './swipe-content-pane/swipe-content-pane.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { FooterComponent } from './footer/footer.component';
     ImagePaneComponent,
     InfoPaneComponent,
     ListPaneComponent,
-    FooterComponent
+    FooterComponent,
+    SwipeContentPaneComponent
   ],
   imports: [
     BrowserModule,

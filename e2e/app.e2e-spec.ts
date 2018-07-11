@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('tbtcandc1 App', () => {
+describe('tbtconsultancy App', () => {
   let page: AppPage;
 
   beforeEach(() => {
